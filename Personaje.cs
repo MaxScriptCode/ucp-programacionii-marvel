@@ -1,4 +1,5 @@
 using System;
+
 public abstract class Personaje{
 
     #region Atributos

@@ -1,4 +1,5 @@
 using System;
+
 public class Superheroe:Personaje{
 
     #region Atributos

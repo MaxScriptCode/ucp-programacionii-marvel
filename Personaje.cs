@@ -65,7 +65,7 @@ public abstract class Personaje{
     #region metodos
 
     public virtual void Atacar(Personaje p){
-
+        Console.WriteLine(p.GetNombre() + "Se preprara para atacar");
     }
 
     #endregion

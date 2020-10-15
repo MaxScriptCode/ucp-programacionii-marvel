@@ -56,10 +56,11 @@ public class Superheroe:Personaje{
     public void Usar(int ataque){
         
     }
-    public void Usar(){
+    public void Usar(Superpoder s){
         
     }
     public override void Atacar(Personaje p){
+        base.Atacar(p);
         Console.WriteLine("El heroe ataca al villano.");
     }
 
